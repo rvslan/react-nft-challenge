@@ -22,20 +22,18 @@ const Header = () => {
       </div>
 
       <div className="headerItems">
-          <p>Drops</p>
-          <p>Marketplace</p>
-          <p>Create</p>
+        <p>Drops</p>
+        <p>Marketplace</p>
+        <p>Create</p>
       </div>
 
       <div className="headerActions">
-          <div className="themeSwitchContainer">
-              <img src={themeSwitchIcon} alt="theme switch" />
-          </div>
+        <div className="themeSwitchContainer">
+          <img src={themeSwitchIcon} alt="theme switch" />
+        </div>
       </div>
 
-      <div className="loginButton">
-        Get in
-      </div>
+      <div className="loginButton">Get in</div>
     </div>
   );
 };
